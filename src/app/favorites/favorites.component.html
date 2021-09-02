@@ -1,0 +1,16 @@
+<table>
+
+    <tr>
+        <th>Id</th>
+        <th>Iser Id</th>
+        <th>Title</th>     
+    </tr>
+
+    <tr *ngFor="let favorite of favorites"> 
+        <td>{{favorite.album.id}}</td>
+        <td>{{favorite.album.userId}}</td>
+        <td>{{favorite.album.title}}</td>
+      
+    </tr>
+
+</table>
